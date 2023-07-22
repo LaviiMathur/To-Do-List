@@ -1,0 +1,115 @@
+* {
+  font-family: "Poppins", sans-serif;
+  color: #112d4e;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  min-height: 95vh;
+  background-color: #e4e9fd;
+  background-image: -webkit-linear-gradient(125deg, #3f72af 50% , #e4e9fd 50%);
+  min-height: 1000px;
+}
+ul {
+  user-select: none;
+  display: flex;
+}
+li {
+  list-style: none;
+  padding: 10px 20px;
+}
+li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+  text-decoration: none;
+
+  font-size: 1.5rem;
+}
+main {
+  text-align: center;
+}
+.containor {
+  flex: 1 0 auto;
+}
+#heading {
+  user-select: none;
+  background-color: #3f72af;
+  border: #3f72af 2px solid;
+  padding: 5px 10px;
+  border-radius: 18px;
+  color: #e4e9fd;
+  letter-spacing: 2px;
+}
+#reset{
+  font-size: 30px;
+  background-color: #3f72af;
+  border: #3f72af 2px solid;
+  padding: 5px 10px;
+  border-radius: 18px;
+  color: #e4e9fd;
+  letter-spacing: 2px;
+}
+footer p {
+  user-select: none;
+  text-align: center;
+}
+  p{text-transform: capitalize;}
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px #3f72af;
+}
+
+.checkbox{
+  margin: 20px; user-select: none;
+}
+.checkbox:checked + .list{
+  text-decoration: line-through;
+}
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+  justify-content: flex-start;
+}
+.intem :last-child {
+  border-bottom: none;
+}
+footer {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: transparent;
+  width: 300px;
+  padding-right: 10px;
+  font-size: 1em;
+  font-weight: 500;
+}
+input[type="text"]:focus {
+  border-color: #3f72af;
+  
+}
+#submit{ user-select: none;
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #3f72af;
+  color: #fff;
+  font-size: 30px;
+  border-width: 0;
+}
